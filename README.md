@@ -15,3 +15,11 @@ Before running the application, ensure you have the following prerequisites inst
 
 - [Node.js](https://nodejs.org) and npm (Node Package Manager)
 - [MongoDB](https://www.mongodb.com) atlas account
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/backend-authentication.git
+   ```
