@@ -41,6 +41,9 @@ Before running the application, ensure you have the following prerequisites inst
       MONGODB_URI=your-mongodb-uri
    ```
 
+Replace `"your-mongodb-uri"` with your MongoDB connection URI.
+
+
 5. Start the server:
 
    ```bash
@@ -53,4 +56,14 @@ Once the server is running, you can interact with the API using HTTP requests. H
 
 - **POST http://localhost:9090/user/signup:** Register a new user account.
 - **POST http://localhost:9090/user/signin:** Log in to an existing user account.
+
+Note: Refer to the API documentation or source code for additional endpoints and usage details.
+
+## Contributing
+
+Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests to improve this project.
+
+## License
+
+This project is licensed under the MIT License.
 
