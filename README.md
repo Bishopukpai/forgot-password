@@ -1,6 +1,6 @@
 # Backend User Authentication Application
 
-Welcome !, This Node.js application provides a robust backend solution for user authentication, built with Express and MongoDB. Whether you're developing a web application, this backend offers secure user authentication features to ensure your users' data remains protected.
+Welcome !, This Node.js application provides a robust backend solution for user authentication, built with Express and MongoDB. If you're developing a web application, this backend offers secure user authentication features to ensure your users' data remains protected.
 
 ## Features
 
@@ -11,9 +11,9 @@ Welcome !, This Node.js application provides a robust backend solution for user 
 
 ## Prerequisites
 
-Before running the application, ensure you have the following prerequisites installed:
+Before running the application, ensure you have the following prerequisites:
 
-- [Node.js](https://nodejs.org) and npm (Node Package Manager)
+- [Node.js](https://nodejs.org) and npm (Node Package Manager) Installed
 - [MongoDB](https://www.mongodb.com) atlas account
 
 ## Installation
@@ -21,13 +21,13 @@ Before running the application, ensure you have the following prerequisites inst
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/backend-authentication.git
+   git clone https://github.com/Bishopukpai/YT-Nodejs-auth-system.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd backend-authentication
+   cd YT-Nodejs-auth-system
    ```
 
 3. Install dependencies:
@@ -57,7 +57,7 @@ Once the server is running, you can interact with the API using HTTP requests. H
 - **POST http://localhost:9090/user/signup:** Register a new user account.
 - **POST http://localhost:9090/user/signin:** Log in to an existing user account.
 
-Note: Refer to the API documentation or source code for additional endpoints and usage details.
+Note: Refer to the source code for additional endpoints and usage details.
 
 ## Contributing
 
