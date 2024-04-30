@@ -43,9 +43,9 @@ Before running the application, ensure you have the following prerequisites inst
 
 5. Start the server:
 
-```bash
-   npm start
-```
+   ```bash
+      npm start
+    ```
 
 ## Usage
 
