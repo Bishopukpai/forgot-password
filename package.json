@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-authserver",
+  "version": "1.0.0",
+  "description": "An authentication system built with Node.js, Express and Mongodb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "Mongodb"
+  ],
+  "author": "Precious Udo Ukpai",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.2.0",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.2"
+  }
+}
