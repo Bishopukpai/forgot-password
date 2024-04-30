@@ -13,7 +13,7 @@ const SigninRoute = require('./api/signinRoute')
 require('./config/database')
 
 //create a port that your application will run on
-const port = 9000;
+const port = 9090;
 
 //Use bodyParser to let your application accept json data from client side.
 const bodyParser = require('express').json;
