@@ -42,5 +42,5 @@ app.use('/user', SigninRoute)
 
 //run your application on the port that you created.
 app.listen(port, ()=>{
-    console.log(`Server is running o localhost:${port}`);
+    console.log(`Server is running on localhost:${port}`);
 });
