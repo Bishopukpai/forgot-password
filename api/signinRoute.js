@@ -23,26 +23,35 @@ signinRoute.post('/signin', (req, res) => {
         User.find({email}).then(data =>{
 
             //if the user exists compare the provided password
-            if(data){
-                const hashedPassword = data[0].password
-                bcrypt.compare(password, hashedPassword).then(result => {
-                    if(result) {
-                        res.json({
-                            status: "SUCCESS",
-                            message: "You have successfully logged in !"
-                        })
-                    }else {
-                        res.json({
-                            status: "FAILED",
-                            message: "Password incorrect!"
-                        })
-                    }
-                }).catch(err => {
+            if(data.length){
+                //check if the user have not been verified
+
+                if(!data[0].verified){
                     res.json({
                         status: "FAILED",
-                        message: "Password comparison failed"
+                        message: "You are yet to verify your email address! Check your inbox or spam for verification message"
                     })
-                })
+                }else {
+                    const hashedPassword = data[0].password
+                    bcrypt.compare(password, hashedPassword).then(result => {
+                        if(result) {
+                            res.json({
+                                status: "SUCCESS",
+                                message: "You have successfully logged in !"
+                            })
+                        }else {
+                            res.json({
+                                status: "FAILED",
+                                message: "Password incorrect!"
+                            })
+                        }
+                    }).catch(err => {
+                        res.json({
+                            status: "FAILED",
+                            message: "Password comparison failed"
+                        })
+                    })
+                }
             }else{
                 res.json({
                     status: "FAILED",
