@@ -1,6 +1,6 @@
 # Backend User Authentication Application
 
-Welcome !, This Node.js application provides a robust backend solution for user authentication, built with Express and MongoDB. If you're developing a web application, this backend offers secure user authentication features to ensure your users' data remains protected.
+Welcome !, This Node.js application provides a robust backend solution for user authentication, and email verification built with Express and MongoDB. If you're developing a web application, this backend offers secure user authentication features to ensure your users' data remains protected.
 
 ## Features
 
